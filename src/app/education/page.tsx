@@ -17,11 +17,13 @@ export default function Education() {
   const [currentImage, setCurrentImage] = useState(0)
   const [isViewerOpen, setIsViewerOpen] = useState(false)
 
-  const { data, isLoading, error } = useSWR(
-    `${process.env.NEXT_PUBLIC_API_URL as string}/certificate`,
-    fetcher,
-    { revalidateOnFocus: false, revalidateOnReconnect: false },
-  )
+const { data, isLoading, error } = useSWR(
+  process.env.NEXT_PUBLIC_API_URL 
+    ? `${process.env.NEXT_PUBLIC_API_URL}/certificate`
+    : '/api/certificate', // fallback ke relative path
+  fetcher,
+  { revalidateOnFocus: false, revalidateOnReconnect: false },
+)
 
   const openImageViewer = useCallback((index: any) => {
     setCurrentImage(index)

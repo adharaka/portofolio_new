@@ -14,11 +14,13 @@ import { GithubStats } from '@/components/common/GithubStats'
 export default function Project() {
   const [filter, setFilter] = useState('all')
 
-  const { data, isLoading, error } = useSWR(
-    `${process.env.NEXT_PUBLIC_API_URL as string}/project`,
-    fetcher,
-    { revalidateOnFocus: false, revalidateOnReconnect: false },
-  )
+const { data, isLoading, error } = useSWR(
+  process.env.NEXT_PUBLIC_API_URL 
+    ? `${process.env.NEXT_PUBLIC_API_URL}/project`
+    : '/api/project', // fallback ke relative path
+  fetcher,
+  { revalidateOnFocus: false, revalidateOnReconnect: false },
+)
 
   return (
     <div className="">
