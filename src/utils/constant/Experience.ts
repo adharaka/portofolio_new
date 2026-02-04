@@ -1,6 +1,3 @@
-import { url } from 'inspector'
-import { title } from 'process'
-
 interface IExperience {
   title: string
   company: string
@@ -10,30 +7,30 @@ interface IExperience {
 }
 export const experience = [
   {
-    title: 'Backend Developer',
-    company: 'Utama Web',
-    type: 'Work',
+    title: 'Full stack Developer Intern',
+    company: 'KPPBC TMP A PURWAKARTA',
+    type: 'Internship',
     description:
-      'Developed a multi-branch Point of Sale (POS) system using Laravel, focusing on scalability, performance, and user-friendly functionality.',
-    date: 'August 2024 - December 2024',
-    url: 'https://utamaweb.com/',
+      'I created a subcontract monitoring application used to monitor ongoing data processes. I created it using PHP with a database using SQL Server.',
+    date: 'Maret 2025 - April 2025',
+    url: '-',
   },
   {
-    title: 'Mobile Developer Cohort',
-    company: 'Bangkit Academy',
-    type: 'Education',
+    title: 'Full stack Developer Intern',
+    company: 'PT. Velasto Indonesia',
+    type: 'Internship',
     description:
-      'The Mobile Developer Cohort at Bangkit Academy is an intensive program from February to July 2024, focused on Android development and integrating machine learning into Android apps. Participants will work on hands-on projects and receive expert mentorship, culminating in a robust portfolio of Android applications.',
-    date: 'Febuary - July 2024',
-    url: 'https://grow.google/intl/id_id/bangkit?tab=machine-learning',
+      'There, I was entrusted with creating a dashboard system that was useful for daily reports and also for monitoring data input directly from the machine. I created it using ASP.NET with a SQL Server database.',
+    date: 'Juni 2025 - Agustus 2025',
+    url: '-',
   },
   {
-    title: 'Lab Assistant',
-    company: 'STMIK Widya Cipta Dharma',
+    title: 'Junior Programmer/Full stack Developer',
+    company: 'PT. Uwu Jump Indonesia',
     type: 'Work',
     description:
-      'support the operation and success of practicum activities and setting up the necessary equipment and softwareensuring laboratory safety and order and providing assistance to students during practical sessions.',
-    date: 'April 2023 - April 2024',
+      'I created an ERP prototype application to simplify the production process, then created an employee year-end assessment application and a Quality Assurance application. I created all of them using PHP with MySQL and SQL Server databases. Then I created a vehicle booking application using Flutter, with a back end using PHP.',
+    date: 'Agustus 2025 - Now',
     url: 'https://www.wicida.ac.id/',
   },
 ]

@@ -11,7 +11,7 @@ import {
 export const logoLinks = [
   {
     name: 'Github',
-    href: 'https://github.com/MuhammadRadifa',
+    href: 'https://github.com/adharaka',
     icon: Github,
   },
   {
@@ -22,18 +22,18 @@ export const logoLinks = [
   },
   {
     name: 'Instagram',
-    href: 'https://www.instagram.com/radifa0_0/',
+    href: 'https://www.instagram.com/adhrkafrmnsyh/',
     icon: Instagram,
     content: 'Radifa0_0',
   },
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/radifa/',
+    href: 'https://www.linkedin.com/in/adha-raka-firmansyah-0b65a6350/',
     icon: LinkedIn,
   },
   {
     name: 'Gmail',
-    href: '',
+    href: 'mailto:rakafirmansyah292@gmail.com',
     icon: Mail,
   },
   {

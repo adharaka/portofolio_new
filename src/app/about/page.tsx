@@ -117,16 +117,15 @@ export default function About() {
         </div>
         <p className="mt-5 text-justify text-base text-secondary-text md:mt-0 lg:w-1/2 xl:text-lg">
           I am an undergraduate student majoring in{' '}
-          <b>Informatics Engineering</b> at STMIK Widya Cipta Dharma. I possess
+          <b>Application Software Engineering</b> at LP3I College Purwakarta. I possess
           a strong understanding of programming languages and web development,
           along with hands-on experience in <b>software development</b>{' '}
           projects. My current focus is on deepening my knowledge in the field
           of <b>web & android development</b>.
           <br />
-          <br />I have hands-on experience with <b>ReactJS</b> and <b>NextJS</b>{' '}
-          for the frontend. and using <b>ExpressJS</b>, <b>AdonisJS</b> for
-          backend development. im also currently learning about <b>Kotlin</b>{' '}
-          for android development
+          <br />I have hands-on experience as a full stuck developer with <b>PHP</b> and <b>ASP.NET</b>{' '}
+          In addition, I also have experience developing mobile applications using{' '}
+          <b>Flutter</b>. I am passionate about creating efficient and user-friendly
         </p>
       </div>
       <TextSection
